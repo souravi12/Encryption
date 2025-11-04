@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crypto Playground</title>
+</head>
+<body style="font-family:Arial; background:#ffe6f7;">
+
+<div style="
+    width: 400px;
+    margin:auto;
+    margin-top:80px;
+    padding:20px;
+    border-radius:15px;
+    background:white;
+    box-shadow: 0 0 15px rgba(255,105,180,0.4);
+    text-align:center;
+">
+    <h2 style="color:#ff4fa3;">💖 Cute Crypto Playground 💖</h2>
+    <p>Enter your secret message ✨</p>
+
+    <form method="POST" action="/encrypt">
+        <label>Message:</label><br>
+        <input type="text" name="message" required
+        style="width:90%; padding:10px; margin-top:5px; border-radius:10px;">
+        <br><br>
+
+        <label>Choose Method:</label><br>
+        <select name="method" style="width:90%; padding:10px; border-radius:10px;">
+            <option value="aes">AES</option>
+            <option value="des">DES</option>
+            <option value="rsa">RSA</option>
+        </select>
+
+        <br><br>
+        <button type="submit"
+        style="background:#ff4fa3; color:white; padding:10px 20px; border:none; border-radius:10px;">
+            Encrypt 💫
+        </button>
+    </form>
+
+</div>
+
+</body>
+</html>

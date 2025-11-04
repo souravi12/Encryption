@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Encrypted Result</title>
+</head>
+<body style="font-family:Arial; background:#ffe6f7;">
+
+<div style="
+    width: 400px;
+    margin:auto;
+    margin-top:80px;
+    padding:20px;
+    border-radius:15px;
+    background:white;
+    box-shadow: 0 0 15px rgba(255,105,180,0.4);
+    text-align:center;
+">
+    <h2 style="color:#ff4fa3;">✨ Encryption Complete ✨</h2>
+    
+    <p><b>Method:</b> {{ method }}</p>
+    <p><b>Original Text:</b> {{ message }}</p>
+    
+    <div style="
+        background:#fff0fa;
+        padding:10px;
+        border-radius:10px;
+        word-wrap: break-word;
+        ">
+        <b>Encrypted Text:</b><br>
+        {{ encrypted }}
+    </div>
+
+    <br>
+    <a href="/"
+    style="text-decoration:none; color:white; background:#ff4fa3; padding:8px 16px; border-radius:10px;">
+        Encrypt Again 💕
+    </a>
+
+</div>
+
+</body>
+</html>
